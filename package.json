@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://nimish1969.github.io",
+  "homepage": "https://paurav11.github.io",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
