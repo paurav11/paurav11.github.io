@@ -1,6 +1,6 @@
 /**
  * Author: Paurav Shah
- * Date: 2025-02-03
+ * Date: 2025-03-13
  * Version: 1.0.0
  * License: MIT
  */
@@ -20,10 +20,10 @@ const Navbar = dynamic(() => import('./navbar'), {
 
 // Download Resume
 const downloadResume = () => {
-  const pdfUrl = "Resume-Nimish_Shah.pdf";
+  const pdfUrl = "Resume_Paurav_Shah.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "Resume-Nimish_Shah.pdf"; // specify the filename
+  link.download = "Resume_Paurav_Shah.pdf"; // specify the filename
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -165,7 +165,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Nimish Shah | Portfolio</title>
+        <title>Paurav Shah | Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="./favicon_io/favicon.ico" />
       </Head>
@@ -179,24 +179,24 @@ export default function Home() {
           <section id="intro" ref={sectionRef}>
             <div id="intro-content">
               <div id="photo-div">
-                <img id="profile-photo" title="Nimish Shah" src="nimish_photo.png" alt="Nimish Shah Photo"/>
+                <img id="profile-photo" title="Paurav Shah" src="paurav_shah_photo.jpg" width="500" height="300" alt="Paurav Shah Photo"/>
               </div>
               <div id="intro-div">
                 <Card id="intro-card">
                   <CardBody id="intro-card-body">
-                    <p id="user-name" className="kumar-one-regular">Nimish Shah</p>
-                    <p><i><span id="user-role">Graphic Design Specialist | Artist</span></i></p>
-                    <q id="design-quote" className="mt-5"><i>Design is always a balanced combination of graphics and text, it looks good when arranged perfectly.</i></q>
-                    <p className="mt-5">Hey there, welcome to my portfolio! I specialize in a wide range of creative work, including graphic design, 3D modeling, and with research &amp; development in visual arts.</p>
-                    <p className="mt-5">My portfolio highlights projects that blend technical precision with artistic vision, spanning from branding and digital content to immersive 3D environments. Each piece showcases a dedication to innovation, pushing the boundaries of design and technology to create visually compelling and functional outcomes.</p>
-                    <p className="mt-5">Kindly, go through my resume for more information and let me know if I'm the person that you might be looking for. Always looking forward to connect with creative minds.</p>
+                    <p id="user-name" className="kumar-one-regular">Paurav Shah</p>
+                    <p><i><span id="user-role">Software Engineer | Creator | AI/ML Enthusiast</span></i></p>
+                    <p className="mt-5">Experienced software engineer with 3+ years of experience in various cutting-edge technologies. Professional who loves building cool stuff for the enterprises. Security is at the core of all my work.</p>
+                    <p className="mt-5">Problem-solving is my forte and where all the praises are. Be surprised with my creativity, dedication, and spirit to take the challenges head-on. Team person at all levels and loves leading the way forward. You'll always find me helping others no matter what. Anyone would love to have me as a part of their team.</p>
+                    <p className="mt-5">Learning and unlearning are part of the tasks that we execute today to meet dynamic requirements. However, I expect respect and creative freedom, which, in a way, unleashes the best in me.</p>
+                    <p className="mt-5">Kindly, go through my resume for more information and let me know if I'm the person that you might be looking for. Always looking forward to connect with innovative minds.</p>
                   </CardBody>
                   <CardFooter id="intro-card-footer">
                     <div id="intro-btns">
                       <Button id="resume-btn" className="bordered-btn" title="Download Resume" color="primary" variant="bordered" onPress={downloadResume}>
                         <FaFileArrowDown/>&nbsp;Resume
                       </Button>
-                      <Button id="email-btn" className="bordered-btn" title="Email" color="primary" variant="bordered" as="a" target="_blank" href="mailto:shahnimish.1969@gmail.com">
+                      <Button id="email-btn" className="bordered-btn" title="Email" color="primary" variant="bordered" as="a" target="_blank" href="mailto:dev.paurav@gmail.com">
                         <FaPaperPlane/>&nbsp;Message
                       </Button>
                     </div>
@@ -206,105 +206,19 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="about" ref={sectionRef1}>
+          {/* <section id="about" ref={sectionRef1}>
             <p id="about-title" className="kumar-one-regular title">About.</p>
             <div id="about-content">
               <p>Let me take you through my magnificient journey so far...</p>
               <Card id="about-card">
                 <CardBody>
-                  <div id="about-me" className="flex flex-row gap-6 justify-center align-center">
-                    <div id="education">
-                      <p id="education-title" className="kumar-one-regular text-center">Education</p>
-                      <div className="flex flex-col gap-4 justify-center align-center">
-                        <div className="about-item mt-5 p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Sardar Patel University (SPU), Vallabh Vidyanagar</h4> 
-                          <p className="mt-1">B.Sc. (Physics)</p>
-                          <p className="mt-1">April 1987 - April 1990</p>
-                          <p className="mt-1">Grade: First</p>
-                        </div>
 
-                        <div className="about-item p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Vidyut Board Vidyalaya, Vadodara, Gujarat, India</h4>
-                          <p className="mt-1">XI-XII HSC, Science</p>
-                          <p className="mt-1">June 1985 - March 1987</p>
-                          <p className="mt-1">Grade: Grade Two</p>
-                        </div>
-
-                        <div className="about-item p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Vidyut Board Vidyalaya, Vadodara, Gujarat, India</h4>
-                          <p className="mt-1">X, SSC</p>
-                          <p className="mt-1">June 1984 - March 1985</p>
-                          <p className="mt-1">Grade: Grade One</p>
-                        </div>
-
-                        <div className="about-item p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Vidyut Board Vidyalaya, Vadodara, Gujarat, India</h4>
-                          <p className="mt-1">Primary &amp; Secondary Education</p>
-                          <p className="mt-1">June 1980 - March 1984</p>
-                        </div>
-
-                        <div className="about-item p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Zenith High School, Vadodara, Gujarat, India</h4>
-                          <p className="mt-1">Primary Education</p>
-                          <p className="mt-1">June 1975 - March 1980</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="work-experience">
-                      <p id="work-experience-title" className="kumar-one-regular text-center">Work Experience</p>
-                      <div className="flex flex-col gap-4 justify-center align-center">
-                        <div className="about-item mt-5 p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Freelance Graphic Designer</h4>
-                          <p className="mt-1">Self-Employed . Full-time</p>
-                          <p className="mt-1">Vadodara, Gujarat, India . Remote</p>
-                          <p className="mt-1">August 2024 - Present</p>
-                        </div>
-
-                        <div className="about-item p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">RIPL Technologies Pvt. Ltd.</h4>
-                          <p className="mt-1">Full-time</p>
-                          <p className="mt-1">Vadodara, Gujarat, India</p>
-
-                          <p className="mt-5">Graphic Design Manager</p>
-                          <p className="mt-1">April 2013 - August 2024</p>
-                          <p className="mt-1">Hybrid</p>
-
-                          <p className="mt-5">Senior Graphic Desiger</p>
-                          <p className="mt-1">April 2008 - March 2013</p>
-                          <p className="mt-1">On-site</p>
-                        </div>
-
-                        <div className="about-item p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Graphic Designer</h4>
-                          <p className="mt-1">Bapor Samachar (Daily Newspaper)</p>
-                          <p className="mt-1">Full-time</p>
-                          <p className="mt-1">Vadodara, Gujarat, India . On-site</p>
-                          <p className="mt-1">April 1998 - March 2008</p>
-                        </div>
-
-                        <div className="about-item p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Freelance Graphic Designer</h4>
-                          <p className="mt-1">Self-Employed . Full-time</p>
-                          <p className="mt-1">Vadodara, Gujarat, India . Remote</p>
-                          <p className="mt-1">April 1992 - March 1998</p>
-                        </div>
-
-                        <div className="about-item p-4 border border-white-400 rounded-[10px]">
-                          <h4 className="italic">Programmer</h4>
-                          <p className="mt-1">Growmore Fertilizers</p>
-                          <p className="mt-1">Full-time</p>
-                          <p className="mt-1">Vadodara, Gujarat, India . On-site</p>
-                          <p className="mt-1">April 1991 - March 1992</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </CardBody>
               </Card>
             </div>
-          </section>
+          </section> */}
 
-          <section id="services" ref={sectionRef2}>
+          {/* <section id="services" ref={sectionRef2}>
             <p id="services-title" className="kumar-one-regular title">Services.</p>
             <div id="services-content">
               <p>I create innovative work across creative graphic design, 2D and 3D animation, and advanced 3D projects, driven by research and development. My portfolio showcases everything from striking visual designs and engaging animations to experimental approaches with emerging tools and technologies. Each project highlights my commitment to combining artistic creativity with technical precision to craft distinctive and impactful results.</p>
@@ -430,9 +344,9 @@ export default function Home() {
                 </Card>
               </div>
             </div>
-          </section>
+          </section> */}
 
-          <section id="portfolio" ref={sectionRef3}>
+          {/* <section id="portfolio" ref={sectionRef3}>
             <p id="portfolio-title" className="kumar-one-regular title">Portfolio.</p>
             <div id="portfolio-content">
               <p>My creative digital graphic work combines bold visuals with thoughtful design to communicate powerful messages. From branding and web design to digital illustrations, I focus on creating visually striking and functional designs that capture attention and convey meaning. Every project showcases my passion for innovation and attention to detail, delivering impactful results tailored to each client's needs.</p>
@@ -444,7 +358,6 @@ export default function Home() {
                         <CardBody className="overflow-visible py-2 items-center">
                           <div className="image-deck grid grid-cols-2 gap-4 justify-items-center items-center">
                             <div>
-                              {/* <h4 className="text-center">Character 1</h4> */}
                               <Image
                                 alt="Character 1"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -455,7 +368,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Character 2</h4> */}
                               <Image
                                 alt="Character 2"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -466,7 +378,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Character 3</h4> */}
                               <Image
                                 alt="Character 3"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -477,7 +388,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Character 4</h4> */}
                               <Image
                                 alt="Character 4"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -495,7 +405,6 @@ export default function Home() {
                         <CardBody className="overflow-visible py-2 items-center">
                           <div className="image-deck grid grid-cols-2 gap-4 justify-items-center items-center">
                             <div>
-                              {/* <h4 className="text-center">Cintascotch 1</h4> */}
                               <Image
                                 alt="Cintascotch 1"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -506,7 +415,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Cintascotch 2</h4> */}
                               <Image
                                 alt="Cintascotch 2"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -517,7 +425,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Cintascotch 3</h4> */}
                               <Image
                                 alt="Cintascotch 3"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -528,7 +435,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Cintascotch 4</h4> */}
                               <Image
                                 alt="Cintascotch 4"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -546,7 +452,6 @@ export default function Home() {
                         <CardBody className="overflow-visible py-2 items-center">
                           <div className="image-deck grid grid-cols-2 gap-4 justify-items-center items-center">
                             <div>
-                              {/* <h4 className="text-center">Logo 1</h4> */}
                               <Image
                                 alt="Logo 1"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -557,7 +462,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Logo 2</h4> */}
                               <Image
                                 alt="Logo 2"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -568,7 +472,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Logo 3</h4> */}
                               <Image
                                 alt="Logo 3"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -579,7 +482,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Logo 4</h4> */}
                               <Image
                                 alt="Logo 4"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -597,7 +499,6 @@ export default function Home() {
                         <CardBody className="overflow-visible py-2 items-center">
                           <div className="image-deck grid grid-cols-2 gap-4 justify-items-center items-center">
                             <div>
-                              {/* <h4 className="text-center">Sketch 1</h4> */}
                               <Image
                                 alt="Sketch 1"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -608,7 +509,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Sketch 2</h4> */}
                               <Image
                                 alt="Sketch 2"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -619,7 +519,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Sketch 3</h4> */}
                               <Image
                                 alt="Sketch 3"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -630,7 +529,6 @@ export default function Home() {
                             </div>
 
                             <div>
-                              {/* <h4 className="text-center">Sketch 4</h4> */}
                               <Image
                                 alt="Sketch 4"
                                 className="object-cover rounded-xl overflow-hidden transition-transform duration-500 hover:scale-95 cursor-pointer"
@@ -647,12 +545,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
           <section id="contact" ref={sectionRef4}>
             <p id="contact-title" className="kumar-one-regular title">Contact.</p>
             <div id="contact-content">
-              <p>Get in touch to collaborate on bold and innovative digital graphic design that brings your vision to life.</p>
+              <p>Get in touch to collaborate on innovative ideas that brings your vision to life.</p>
               <div id="contact-details">
                 <div id="map-location-div">
                   <iframe
@@ -680,15 +578,36 @@ export default function Home() {
                           e.preventDefault();
                           let data = Object.fromEntries(new FormData(e.currentTarget));
 
-                          // Reset form
+                          // Get form data
+                          var name = data.username;
+                          var email = data.email;
+                          var subject = data.subject;
+                          var message = data.message;
+
+                          const formData = { name, email, subject, message };
+                          const googleScriptURL = "https://script.google.com/macros/s/AKfycbw1jGWOzrBvIGc_S_ZBC4fmPQc9zY1INzSWvT82Emx9Bswd9nGFE5-HE__zZz0A_mY/exec"; // Replace with your Google Apps Script URL
+
+                          fetch(googleScriptURL, {
+                            method: "POST",
+                            mode: "no-cors",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify(formData),
+                          })
+                          .then(() => {
+                            console.log("Success:");
+                          })
+                          .catch(error => {
+                            console.error("Error:", error);
+                          });
+
                           document.getElementById("contact-form").reset();
 
-                          // Send draft to email client
-                          const receiver_email = 'shahnimish.1969@gmail.com';
-                          const subject = 'Re: Nimish Shah | Portfolio  - ' + data.subject + ' | ' + data.username + ' (' + data.email + ')';
-                          const body = 'Hi Nimish,\n\n' + data.message + '\n\nRegards,\n\n' + data.username;
+                           // Send draft to email client
+                           const receiver_email = 'dev.paurav@gmail.com';
+                           const subjectLine = 'Re: Paurav Shah | Portfolio  - ' + data.subject + ' | ' + data.username + ' (' + data.email + ')';
+                           const body = 'Hi Paurav,\n\n' + data.message + '\n\nRegards,\n\n' + data.username;
 
-                          const mailtoLink = `mailto:${receiver_email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                          const mailtoLink = `mailto:${receiver_email}?subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(body)}`;
                           window.location.href = mailtoLink;
                         }}
                       >
@@ -758,18 +677,14 @@ export default function Home() {
         </main>
 
         <footer id="portfolio-footer">
-          <p>&copy; 2025 Nimish Shah. All rights reserved.</p>
+          <p>&copy; 2025 Paurav Shah. All rights reserved.</p>
           <br/>
-          <Button id="github-btn" className="bordered-btn" title="Nimish Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/nimish1969">
-            <FaGithub/>&nbsp;nimish1969
+          <Button id="github-btn" className="bordered-btn" title="Paurav Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/paurav11">
+            <FaGithub/>&nbsp;paurav11
           </Button>
           <br/>
           <br/>
-          <code>Crafted with ❤️ by 
-            <a target="_blank" title="Paurav Shah | GitHub" href="https://github.com/paurav11">
-              &nbsp;Paurav Shah
-            </a>
-          .</code>
+          <code>Crafted with ❤️ by Paurav Shah.</code>
         </footer>
       </div>
 
@@ -813,11 +728,12 @@ export default function Home() {
           width: 50%;
         }
         #profile-photo {
-          height: auto;
+          height: 550px !important;
           margin-left: auto;
           margin-right: 0;
-         -webkit-filter: drop-shadow(5px 5px 5px #222 );
-          filter: drop-shadow(5px 5px 5px #222);
+         -webkit-filter: drop-shadow(1px 1px 1px #fff);
+          filter: drop-shadow(1px 1px 1px #fff);
+          border-radius: 10px;
         }
         // #profile-photo:hover {
         //   cursor: pointer;
@@ -946,7 +862,7 @@ export default function Home() {
           overflow: hidden;
           padding: 15px 0;
           width: 100%;
-          background-color: #202830;
+          background-color: #000;
           text-align: center;
           position: relative;
           bottom: 0;

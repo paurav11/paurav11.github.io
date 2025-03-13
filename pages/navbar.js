@@ -1,6 +1,6 @@
 /**
  * Author: Paurav Shah
- * Date: 2025-02-03
+ * Date: 2025-03-13
  * Version: 1.0.0
  * License: MIT
  */
@@ -11,7 +11,7 @@ import { NextUIProvider } from "@nextui-org/react";
 import { useEffect } from 'react';
 import { Avatar, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, 
   NavbarMenu, NavbarMenuItem, Link } from "@nextui-org/react";
-import { FaLinkedin, FaInstagram, FaFacebook, FaBehance, FaDribbble, FaYoutube } from "react-icons/fa6";
+import { FaLinkedin, FaInstagram, FaFacebook, FaXTwitter, FaYoutube } from "react-icons/fa6";
 
 export function Menu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -24,10 +24,10 @@ export function Menu() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <Avatar size="sm" title="Nimish" color="default" src="./nimish_profile_photo.png"/>
+          <Avatar size="sm" title="Paurav" color="default" src="./paurav_shah_photo.jpg"/>
           &nbsp;&nbsp;
           <Link id="brand-logo" className="kumar-one-regular" title="Nimish" color="foreground" href="#">
-            Nimish
+            Paurav
           </Link>
         </NavbarBrand>
       </NavbarContent>
@@ -57,48 +57,32 @@ export function Menu() {
 
       <NavbarContent id="brand-social-section" justify="end">
         <NavbarItem>
-          <Link color="foreground" title="Nimish Shah | LinkedIn" target="_blank" href="https://www.linkedin.com/in/nimish69/">
+          <Link color="foreground" title="Paurav Shah | LinkedIn" target="_blank" href="https://www.linkedin.com/in/paurav11/">
             <FaLinkedin/>
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" title="Nimish Shah | Instagram" target="_blank" href="https://www.instagram.com/nimishshah69/">
+          <Link color="foreground" title="Paurav Shah | Instagram" target="_blank" href="https://www.instagram.com/paurav_11/">
             <FaInstagram/>
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" title="Nimish Shah | Facebook" target="_blank" href="https://www.facebook.com/nimesh.shah.3958">
+          <Link color="foreground" title="Paurav Shah | Facebook" target="_blank" href="https://www.facebook.com/paurav.shah.11/">
             <FaFacebook/>
           </Link>
         </NavbarItem>
-        {/* <NavbarItem>
-          <Link color="foreground" title="Nimish Shah | Behance" target="_blank" href="https://www.behance.net/nimishshah">
-            <FaBehance/>
+        <NavbarItem>
+          <Link color="foreground" title="Paurav Shah | X" target="_blank" href="https://x.com/PauravNShah">
+            <FaXTwitter/>
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" title="Nimish Shah | Dribbble" target="_blank" href="https://dribbble.com/nimishshah">
-            <FaDribbble/>
-          </Link>
-        </NavbarItem> */}
-        <NavbarItem>
-          <Link color="foreground" title="Nimish Shah | YouTube" target="_blank" href="https://www.youtube.com/@Cre-Tech">
+          <Link color="foreground" title="Paurav Shah | YouTube" target="_blank" href="https://www.youtube.com/@paurav11">
             <FaYoutube/>
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>
-        {/* {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              className="w-full"
-              href="#"
-              size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))} */}
         <NavbarMenuItem>
           <Link id="about-item" className="w-full" title="About" color="foreground" href="#about" size="lg">
             About
