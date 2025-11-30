@@ -20,10 +20,10 @@ const Navbar = dynamic(() => import('./navbar'), {
 
 // Download Resume
 const downloadResume = () => {
-  const pdfUrl = "Resume_Paurav_Shah.pdf";
+  const pdfUrl = "Paurav_Shah_Resume.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "Resume_Paurav_Shah.pdf"; // specify the filename
+  link.download = "Paurav_Shah_Resume.pdf"; // specify the filename
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -185,10 +185,9 @@ export default function Home() {
                 <Card id="intro-card">
                   <CardBody id="intro-card-body">
                     <p id="user-name" className="kumar-one-regular">Paurav Shah</p>
-                    <p><i><span id="user-role">Software Engineer | Creator | AI/ML Enthusiast</span></i></p>
-                    <p className="mt-5">Experienced software engineer with 3+ years of experience in various cutting-edge technologies. Professional who loves building cool stuff for the enterprises. Security is at the core of all my work.</p>
-                    <p className="mt-5">Problem-solving is my forte and where all the praises are. Be surprised with my creativity, dedication, and spirit to take the challenges head-on. Team person at all levels and loves leading the way forward. You'll always find me helping others no matter what. Anyone would love to have me as a part of their team.</p>
-                    <p className="mt-5">Learning and unlearning are part of the tasks that we execute today to meet dynamic requirements. However, I expect respect and creative freedom, which, in a way, unleashes the best in me.</p>
+                    <p><i><span id="user-role">Full Stack Engineer | Cloud & AI Enthusiast</span></i></p>
+                    <p className="mt-5">Experienced software engineer with over 4 years of experience in designing, developing, and delivering robust and scalable enterprise solutions. Proficient in Java and Spring technologies with microservices architecture, leveraging strong problem-solving skills and agile methodologies, building RESTful APIs, and integrating with relational databases.</p>
+                    <p className="mt-5">Recognized for delivering innovative and tailored solutions that consistently exceed expectations, with a pragmatic approach to complex technical challenges. Driven by creativity and a commitment to excellence, thrives in leadership roles, ensuring timely deliverables with great attention to detail while actively contributing to team success.</p>
                     <p className="mt-5">Kindly, go through my resume for more information and let me know if I'm the person that you might be looking for. Always looking forward to connect with innovative minds.</p>
                   </CardBody>
                   <CardFooter id="intro-card-footer">
@@ -556,7 +555,7 @@ export default function Home() {
                   <iframe
                       id="google-map-location"
                       className="map"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.27542983864!2d73.1535135760009!3d22.30542084270851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc89851cd49cf%3A0x2b7d0ee77dd98db8!2sMinaxi%20Co-operative%20Housing%20Society!5e0!3m2!1sen!2sin!4v1737926983280!5m2!1sen!2sin"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.56659724278!2d77.46612865633178!3d12.954280232591845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1764524730854!5m2!1sen!2sin"
                       width="400"
                       height="400"
                       frameborder="0"
@@ -728,12 +727,12 @@ export default function Home() {
           width: 50%;
         }
         #profile-photo {
-          height: 550px !important;
+          height: 500px !important;
           margin-left: auto;
           margin-right: 0;
          -webkit-filter: drop-shadow(1px 1px 1px #fff);
           filter: drop-shadow(1px 1px 1px #fff);
-          border-radius: 10px;
+          border-radius: 50%;
         }
         // #profile-photo:hover {
         //   cursor: pointer;

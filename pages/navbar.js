@@ -11,7 +11,7 @@ import { NextUIProvider } from "@nextui-org/react";
 import { useEffect } from 'react';
 import { Avatar, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, 
   NavbarMenu, NavbarMenuItem, Link } from "@nextui-org/react";
-import { FaLinkedin, FaInstagram, FaFacebook, FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaXTwitter, FaYoutube } from "react-icons/fa6";
 
 export function Menu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -26,14 +26,14 @@ export function Menu() {
         <NavbarBrand>
           <Avatar size="sm" title="Paurav" color="default" src="./paurav_shah_photo.jpg"/>
           &nbsp;&nbsp;
-          <Link id="brand-logo" className="kumar-one-regular" title="Nimish" color="foreground" href="#">
+          <Link id="brand-logo" className="kumar-one-regular" title="Paurav" color="foreground" href="#">
             Paurav
           </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent id="brand-portfolio-section" className="hidden sm:flex gap-10" justify="center">
-        <NavbarItem>
+        {/* <NavbarItem>
           <Link id="about-item" className="menuItem" color="foreground" title="About" href="#about">
             About
           </Link>
@@ -52,22 +52,27 @@ export function Menu() {
           <Link id="contact-item" className="menuItem" color="foreground" title="Contact" href="#contact">
             Contact
           </Link>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
 
       <NavbarContent id="brand-social-section" justify="end">
         <NavbarItem>
-          <Link color="foreground" title="Paurav Shah | LinkedIn" target="_blank" href="https://www.linkedin.com/in/paurav11/">
+          <Link color="foreground" title="Paurav Shah | LinkedIn" target="_blank" href="https://github.com/paurav11">
+            <FaGithub/>
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" title="Paurav Shah | LinkedIn" target="_blank" href="https://linkedin.com/in/paurav11/">
             <FaLinkedin/>
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" title="Paurav Shah | Instagram" target="_blank" href="https://www.instagram.com/paurav_11/">
+          <Link color="foreground" title="Paurav Shah | Instagram" target="_blank" href="https://instagram.com/paurav_11/">
             <FaInstagram/>
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" title="Paurav Shah | Facebook" target="_blank" href="https://www.facebook.com/paurav.shah.11/">
+          <Link color="foreground" title="Paurav Shah | Facebook" target="_blank" href="https://facebook.com/paurav.shah.11/">
             <FaFacebook/>
           </Link>
         </NavbarItem>
@@ -76,11 +81,11 @@ export function Menu() {
             <FaXTwitter/>
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        {/* <NavbarItem>
           <Link color="foreground" title="Paurav Shah | YouTube" target="_blank" href="https://www.youtube.com/@paurav11">
             <FaYoutube/>
           </Link>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
       <NavbarMenu>
         <NavbarMenuItem>
