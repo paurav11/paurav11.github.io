@@ -88,7 +88,7 @@ export function Menu() {
         </NavbarItem> */}
       </NavbarContent>
       <NavbarMenu>
-        <NavbarMenuItem>
+        {/* <NavbarMenuItem>
           <Link id="about-item" className="w-full" title="About" color="foreground" href="#about" size="lg">
             About
           </Link>
@@ -102,7 +102,7 @@ export function Menu() {
           <Link id="portfolio-item" className="w-full" title="Portfolio" color="foreground" href="#portfolio" size="lg">
             Portfolio
           </Link>
-        </NavbarMenuItem>
+        </NavbarMenuItem> */}
         <NavbarMenuItem>
           <Link id="contact-item" className="w-full" title="Contact" color="foreground" href="#contact" size="lg">
             Contact
