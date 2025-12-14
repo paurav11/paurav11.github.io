@@ -57,7 +57,7 @@ interface UninlinedCssFile {
 export interface ClientReferenceManifest extends ClientReferenceManifestForRsc {
     readonly moduleLoading: {
         prefix: string;
-        crossOrigin: string | null;
+        crossOrigin?: 'use-credentials' | '';
     };
     ssrModuleMapping: {
         [moduleId: string]: ManifestNode;
@@ -79,6 +79,6 @@ export declare class ClientReferenceManifestPlugin {
     experimentalInlineCss: Options['experimentalInlineCss'];
     constructor(options: Options);
     apply(compiler: webpack.Compiler): void;
-    createAsset(assets: webpack.Compilation['assets'], compilation: webpack.Compilation, context: string): void;
+    createAsset(compilation: webpack.Compilation, context: string): void;
 }
 export {};
