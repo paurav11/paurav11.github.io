@@ -1,6 +1,6 @@
 /**
  * Author: Paurav Shah
- * Date: 2025-03-13
+ * Date: 2025-12-14
  * Version: 1.0.0
  * License: MIT
  */
@@ -14,7 +14,12 @@ import { Textarea, Form, Input, Button, Tabs, Tab, Card, CardHeader, CardBody, C
 // import {useRouter} from 'next/router';
 
 // Dynamically import the ClientOnlyComponent with ssr: false
-const Navbar = dynamic(() => import('./navbar'), {
+const Navbar = dynamic(() => import('../components/navbar'), {
+  ssr: false, // Ensures this component is only rendered on the client-side
+});
+
+// Dynamically import the ClientOnlyComponent with ssr: false
+const Scene = dynamic(() => import('../components/Scene'), {
   ssr: false, // Ensures this component is only rendered on the client-side
 });
 
@@ -179,13 +184,13 @@ export default function Home() {
           <section id="intro" ref={sectionRef}>
             <div id="intro-content">
               <div id="photo-div">
-                <img id="profile-photo" title="Paurav Shah" src="paurav_shah_photo.jpg" width="500" height="300" alt="Paurav Shah Photo"/>
+                <Scene/>
               </div>
               <div id="intro-div">
                 <Card id="intro-card">
                   <CardBody id="intro-card-body">
-                    <p id="user-name" className="kumar-one-regular">Paurav Shah</p>
-                    <p><i><span id="user-role">Full Stack Engineer | Cloud & AI Enthusiast</span></i></p>
+                    <p id="user-name" className="google-sans-code-regular">Paurav Shah</p>
+                    <p><i><span id="user-role">Full Stack Engineer | Cloud & AI Enthusiast | Creator</span></i></p>
                     <p className="mt-5">Experienced software engineer with over 4 years of experience in designing, developing, and delivering robust and scalable enterprise solutions. Proficient in Java and Spring technologies with microservices architecture, leveraging strong problem-solving skills and agile methodologies, building RESTful APIs, and integrating with relational databases.</p>
                     <p className="mt-5">Recognized for delivering innovative and tailored solutions that consistently exceed expectations, with a pragmatic approach to complex technical challenges. Driven by creativity and a commitment to excellence, thrives in leadership roles, ensuring timely deliverables with great attention to detail while actively contributing to team success.</p>
                     <p className="mt-5">Kindly, go through my resume for more information and let me know if I'm the person that you might be looking for. Always looking forward to connect with innovative minds.</p>
@@ -206,7 +211,7 @@ export default function Home() {
           </section>
 
           {/* <section id="about" ref={sectionRef1}>
-            <p id="about-title" className="kumar-one-regular title">About.</p>
+            <p id="about-title" className="-regular title">About.</p>
             <div id="about-content">
               <p>Let me take you through my magnificient journey so far...</p>
               <Card id="about-card">
@@ -218,7 +223,7 @@ export default function Home() {
           </section> */}
 
           {/* <section id="services" ref={sectionRef2}>
-            <p id="services-title" className="kumar-one-regular title">Services.</p>
+            <p id="services-title" className="google-sans-code-regular title">Services.</p>
             <div id="services-content">
               <p>I create innovative work across creative graphic design, 2D and 3D animation, and advanced 3D projects, driven by research and development. My portfolio showcases everything from striking visual designs and engaging animations to experimental approaches with emerging tools and technologies. Each project highlights my commitment to combining artistic creativity with technical precision to craft distinctive and impactful results.</p>
               <div id="my-services">
@@ -249,7 +254,7 @@ export default function Home() {
                   </CardHeader>
                   <Divider />
                   <CardBody className="text-center p-4 overflow-y-hidden">
-                    <p id="graphic-design-title" className="kumar-one-regular">Graphic Design</p>
+                    <p id="graphic-design-title" className="google-sans-code-regular">Graphic Design</p>
                   </CardBody>
                   <Divider />
                   <CardFooter className="card-footer text-sm text-center p-4 break-words overflow-y-auto">
@@ -283,7 +288,7 @@ export default function Home() {
                   </CardHeader>
                   <Divider />
                   <CardBody className="text-center p-4 overflow-y-hidden">
-                    <p id="animation-title" className="kumar-one-regular">Animation</p>
+                    <p id="animation-title" className="google-sans-code-regular">Animation</p>
                   </CardBody>
                   <Divider />
                   <CardFooter className="card-footer text-sm text-center p-4 break-words overflow-y-auto">
@@ -334,7 +339,7 @@ export default function Home() {
                   </CardHeader>
                   <Divider />
                   <CardBody className="text-center p-4 overflow-y-hidden">
-                    <p id="threed-works-title" className="kumar-one-regular">3D Design</p>
+                    <p id="threed-works-title" className="google-sans-code-regular">3D Design</p>
                   </CardBody>
                   <Divider />
                   <CardFooter className="card-footer text-sm text-center p-4 break-words overflow-y-auto">
@@ -346,7 +351,7 @@ export default function Home() {
           </section> */}
 
           {/* <section id="portfolio" ref={sectionRef3}>
-            <p id="portfolio-title" className="kumar-one-regular title">Portfolio.</p>
+            <p id="portfolio-title" className="google-sans-code-regular title">Portfolio.</p>
             <div id="portfolio-content">
               <p>My creative digital graphic work combines bold visuals with thoughtful design to communicate powerful messages. From branding and web design to digital illustrations, I focus on creating visually striking and functional designs that capture attention and convey meaning. Every project showcases my passion for innovation and attention to detail, delivering impactful results tailored to each client's needs.</p>
               <div id="my-portfolio">
@@ -547,7 +552,7 @@ export default function Home() {
           </section> */}
 
           <section id="contact" ref={sectionRef4}>
-            <p id="contact-title" className="kumar-one-regular title">Contact.</p>
+            <p id="contact-title" className="google-sans-code-regular title">Contact.</p>
             <div id="contact-content">
               <p>Get in touch to collaborate on innovative ideas that brings your vision to life.</p>
               <div id="contact-details">
@@ -676,7 +681,7 @@ export default function Home() {
         </main>
 
         <footer id="portfolio-footer">
-          <p>&copy; 2025 Paurav Shah. All rights reserved.</p>
+          <p>Copyright &copy; 2025 Paurav Shah. All rights reserved.</p>
           <br/>
           <Button id="github-btn" className="bordered-btn" title="Paurav Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/paurav11">
             <FaGithub/>&nbsp;paurav11
@@ -1028,29 +1033,6 @@ export default function Home() {
 
         @media only screen and (max-width: 600px) {
           
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family:
-            -apple-system,
-            BlinkMacSystemFont,
-            Segoe UI,
-            Roboto,
-            Oxygen,
-            Ubuntu,
-            Cantarell,
-            Fira Sans,
-            Droid Sans,
-            Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
         }
       `}</style>
     </div>

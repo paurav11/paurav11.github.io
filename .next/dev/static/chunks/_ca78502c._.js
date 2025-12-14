@@ -1,0 +1,26 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/node_modules/@heroui/dom-animation/dist/index.mjs [client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "static/chunks/node_modules_2e0a1dbb._.js",
+  "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_34a02422._.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/node_modules/@heroui/dom-animation/dist/index.mjs [client] (ecmascript)");
+    });
+});
+}),
+"[project]/pages/navbar.js [client] (ecmascript, next/dynamic entry, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "static/chunks/node_modules_@nextui-org_dom-animation_dist_index_mjs_8b9b2cf4._.js",
+  "static/chunks/node_modules_b9171252._.js",
+  "static/chunks/pages_navbar_573470b1.js",
+  "static/chunks/pages_navbar_2506d7e3.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/pages/navbar.js [client] (ecmascript, next/dynamic entry)");
+    });
+});
+}),
+]);

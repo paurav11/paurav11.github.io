@@ -1,5 +1,13 @@
+/**
+ * Author: Paurav Shah
+ * Date: 2025-12-14
+ * Version: 1.0.0
+ * License: MIT
+ */
+
 @import "tailwind.css";
-@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
   margin: 0;
@@ -13,7 +21,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   overflow-y: auto;
-  font-family:
+  /* font-family:
     Inter,
     -apple-system,
     BlinkMacSystemFont,
@@ -25,7 +33,12 @@ body {
     Fira Sans,
     Droid Sans,
     Helvetica Neue,
-    sans-serif;
+    sans-serif; */
+  font-family: "Google Sans";
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   color: white !important;
   background: linear-gradient(#202830, #222, #202830);
 }
@@ -64,8 +77,8 @@ nav {
   color: white !important;
 }
 
-.kumar-one-regular {
-  font-family: "Kumar One", serif !important;
+.google-sans-code-regular {
+  font-family: "Google Sans Code", monospace !important;
   font-weight: 400 !important;
   font-style: normal !important;
 }

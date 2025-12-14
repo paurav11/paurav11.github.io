@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/pauravshah/Projects/Portfolio/paurav11.github.io/pages/_app.js"],"sourcesContent":["/**\n * Author: Paurav Shah\n * Date: 2025-12-12\n * Version: 1.0.0\n * License: MIT\n */\n\n// pages/_app.js\nimport '../styles/global.css';  // Import Tailwind CSS or your custom global styles\nimport '../styles/tailwind.css';\n\n\nfunction MyApp({ Component, pageProps }) {\n  return <Component {...pageProps} />;\n}\n\nexport default MyApp;\n"],"names":[],"mappings":"AAAA;;;;;CAKC,GAED,gBAAgB;;;;;;;;;AAKhB,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACrC,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC;uCAEe"}}]
+}
