@@ -653,12 +653,12 @@ function Home() {
         }
     }["Home.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-d8a5ff1f436883f0",
+        className: "jsx-56eeb3128eb2f4d7",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                        className: "jsx-d8a5ff1f436883f0",
+                        className: "jsx-56eeb3128eb2f4d7",
                         children: "Paurav Shah | Portfolio"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
@@ -668,7 +668,7 @@ function Home() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1.0",
-                        className: "jsx-d8a5ff1f436883f0"
+                        className: "jsx-56eeb3128eb2f4d7"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
                         lineNumber: 174,
@@ -677,7 +677,7 @@ function Home() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
                         rel: "icon",
                         href: "./favicon_io/favicon.ico",
-                        className: "jsx-d8a5ff1f436883f0"
+                        className: "jsx-56eeb3128eb2f4d7"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
                         lineNumber: 175,
@@ -691,7 +691,7 @@ function Home() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                 id: "portfolio-header",
-                className: "jsx-d8a5ff1f436883f0",
+                className: "jsx-56eeb3128eb2f4d7",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Navbar, {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
                     lineNumber: 179,
@@ -704,23 +704,23 @@ function Home() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 id: "content-wrapper",
-                className: "jsx-d8a5ff1f436883f0",
+                className: "jsx-56eeb3128eb2f4d7",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                         id: "main",
-                        className: "jsx-d8a5ff1f436883f0",
+                        className: "jsx-56eeb3128eb2f4d7",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                 id: "intro",
                                 ref: sectionRef,
-                                className: "jsx-d8a5ff1f436883f0",
+                                className: "jsx-56eeb3128eb2f4d7",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     id: "intro-content",
-                                    className: "jsx-d8a5ff1f436883f0",
+                                    className: "jsx-56eeb3128eb2f4d7",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             id: "photo-div",
-                                            className: "jsx-d8a5ff1f436883f0",
+                                            className: "jsx-56eeb3128eb2f4d7",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Scene, {}, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
                                                 lineNumber: 187,
@@ -733,7 +733,7 @@ function Home() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             id: "intro-div",
-                                            className: "jsx-d8a5ff1f436883f0",
+                                            className: "jsx-56eeb3128eb2f4d7",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$card$2f$dist$2f$chunk$2d$5PILOUBS$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__card_default__as__Card$3e$__["Card"], {
                                                 id: "intro-card",
                                                 children: [
@@ -742,7 +742,7 @@ function Home() {
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 id: "user-name",
-                                                                className: "jsx-d8a5ff1f436883f0" + " " + "google-sans-code-regular",
+                                                                className: "jsx-56eeb3128eb2f4d7" + " " + "google-sans-code-regular",
                                                                 children: "Paurav Shah"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
@@ -750,12 +750,12 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-d8a5ff1f436883f0",
+                                                                className: "jsx-56eeb3128eb2f4d7",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                    className: "jsx-d8a5ff1f436883f0",
+                                                                    className: "jsx-56eeb3128eb2f4d7",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         id: "user-role",
-                                                                        className: "jsx-d8a5ff1f436883f0",
+                                                                        className: "jsx-56eeb3128eb2f4d7",
                                                                         children: "Full Stack Engineer | Cloud & AI Enthusiast | Creator"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
@@ -773,7 +773,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-d8a5ff1f436883f0" + " " + "mt-5",
+                                                                className: "jsx-56eeb3128eb2f4d7" + " " + "mt-5",
                                                                 children: "Experienced software engineer with over 4 years of experience in designing, developing, and delivering robust and scalable enterprise solutions. Proficient in Java and Spring technologies with microservices architecture, leveraging strong problem-solving skills and agile methodologies, building RESTful APIs, and integrating with relational databases."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
@@ -781,7 +781,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-d8a5ff1f436883f0" + " " + "mt-5",
+                                                                className: "jsx-56eeb3128eb2f4d7" + " " + "mt-5",
                                                                 children: "Recognized for delivering innovative and tailored solutions that consistently exceed expectations, with a pragmatic approach to complex technical challenges. Driven by creativity and a commitment to excellence, thrives in leadership roles, ensuring timely deliverables with great attention to detail while actively contributing to team success."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
@@ -789,7 +789,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-d8a5ff1f436883f0" + " " + "mt-5",
+                                                                className: "jsx-56eeb3128eb2f4d7" + " " + "mt-5",
                                                                 children: "Kindly, go through my resume for more information and let me know if I'm the person that you might be looking for. Always looking forward to connect with innovative minds."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
@@ -806,7 +806,7 @@ function Home() {
                                                         id: "intro-card-footer",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             id: "intro-btns",
-                                                            className: "jsx-d8a5ff1f436883f0",
+                                                            className: "jsx-56eeb3128eb2f4d7",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$XJ3PDX4B$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
                                                                     id: "resume-btn",
@@ -886,11 +886,11 @@ function Home() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                 id: "contact",
                                 ref: sectionRef4,
-                                className: "jsx-d8a5ff1f436883f0",
+                                className: "jsx-56eeb3128eb2f4d7",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         id: "contact-title",
-                                        className: "jsx-d8a5ff1f436883f0" + " " + "google-sans-code-regular title",
+                                        className: "jsx-56eeb3128eb2f4d7" + " " + "google-sans-code-regular title",
                                         children: "Contact."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
@@ -899,10 +899,10 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         id: "contact-content",
-                                        className: "jsx-d8a5ff1f436883f0",
+                                        className: "jsx-56eeb3128eb2f4d7",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-d8a5ff1f436883f0",
+                                                className: "jsx-56eeb3128eb2f4d7",
                                                 children: "Get in touch to collaborate on innovative ideas that brings your vision to life."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
@@ -911,11 +911,11 @@ function Home() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 id: "contact-details",
-                                                className: "jsx-d8a5ff1f436883f0",
+                                                className: "jsx-56eeb3128eb2f4d7",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         id: "map-location-div",
-                                                        className: "jsx-d8a5ff1f436883f0",
+                                                        className: "jsx-56eeb3128eb2f4d7",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
                                                             id: "google-map-location",
                                                             src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.56659724278!2d77.46612865633178!3d12.954280232591845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1764524730854!5m2!1sen!2sin",
@@ -928,7 +928,7 @@ function Home() {
                                                             allowfullscreen: "",
                                                             "aria-hidden": "false",
                                                             tabindex: "0",
-                                                            className: "jsx-d8a5ff1f436883f0" + " " + "map"
+                                                            className: "jsx-56eeb3128eb2f4d7" + " " + "map"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
                                                             lineNumber: 560,
@@ -941,7 +941,7 @@ function Home() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         id: "contact-form-div",
-                                                        className: "jsx-d8a5ff1f436883f0",
+                                                        className: "jsx-56eeb3128eb2f4d7",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$card$2f$dist$2f$chunk$2d$5PILOUBS$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__card_default__as__Card$3e$__["Card"], {
                                                             id: "contact-form-card",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$card$2f$dist$2f$chunk$2d$LGSBTEIA$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__card_body_default__as__CardBody$3e$__["CardBody"], {
@@ -1049,7 +1049,7 @@ function Home() {
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             id: "contact-form-btns-div",
-                                                                            className: "jsx-d8a5ff1f436883f0" + " " + "gap-2",
+                                                                            className: "jsx-56eeb3128eb2f4d7" + " " + "gap-2",
                                                                             children: [
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$XJ3PDX4B$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
                                                                                     color: "transperant",
@@ -1139,21 +1139,48 @@ function Home() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                         id: "portfolio-footer",
-                        className: "jsx-d8a5ff1f436883f0",
+                        className: "jsx-56eeb3128eb2f4d7",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-d8a5ff1f436883f0",
-                                children: "Copyright © 2025 Paurav Shah. All rights reserved."
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                class: "footer-logo-div",
+                                className: "jsx-56eeb3128eb2f4d7",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    id: "footer-logo",
+                                    src: "./logo/paurav_shah_white.png",
+                                    alt: "Paurav Shah Logo",
+                                    width: "200rem",
+                                    height: "200rem",
+                                    className: "jsx-56eeb3128eb2f4d7"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/index.js",
+                                    lineNumber: 685,
+                                    columnNumber: 13
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
                                 lineNumber: 684,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                className: "jsx-d8a5ff1f436883f0"
+                                className: "jsx-56eeb3128eb2f4d7"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 685,
+                                lineNumber: 687,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "jsx-56eeb3128eb2f4d7",
+                                children: "Copyright © 2025 Paurav Shah. All rights reserved."
+                            }, void 0, false, {
+                                fileName: "[project]/pages/index.js",
+                                lineNumber: 688,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                                className: "jsx-56eeb3128eb2f4d7"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/index.js",
+                                lineNumber: 689,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$XJ3PDX4B$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
@@ -1168,36 +1195,36 @@ function Home() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["FaGithub"], {}, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 687,
+                                        lineNumber: 691,
                                         columnNumber: 13
                                     }, this),
                                     " paurav11"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 686,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                className: "jsx-d8a5ff1f436883f0"
-                            }, void 0, false, {
-                                fileName: "[project]/pages/index.js",
-                                lineNumber: 689,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                className: "jsx-d8a5ff1f436883f0"
-                            }, void 0, false, {
-                                fileName: "[project]/pages/index.js",
                                 lineNumber: 690,
                                 columnNumber: 11
                             }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                                className: "jsx-56eeb3128eb2f4d7"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/index.js",
+                                lineNumber: 693,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                                className: "jsx-56eeb3128eb2f4d7"
+                            }, void 0, false, {
+                                fileName: "[project]/pages/index.js",
+                                lineNumber: 694,
+                                columnNumber: 11
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                className: "jsx-d8a5ff1f436883f0",
+                                className: "jsx-56eeb3128eb2f4d7",
                                 children: "Crafted with ❤️ by Paurav Shah."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 691,
+                                lineNumber: 695,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1213,8 +1240,8 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "d8a5ff1f436883f0",
-                children: "#navbar-item.jsx-d8a5ff1f436883f0{padding:2rem!important}#content-wrapper.jsx-d8a5ff1f436883f0{flex-flow:column wrap;display:flex}main.jsx-d8a5ff1f436883f0{flex-grow:1;width:100%;height:auto}#intro.jsx-d8a5ff1f436883f0,#about.jsx-d8a5ff1f436883f0,#services.jsx-d8a5ff1f436883f0,#portfolio.jsx-d8a5ff1f436883f0,#contact.jsx-d8a5ff1f436883f0{z-index:1;width:80vw;margin:auto;overflow:hidden}#intro.jsx-d8a5ff1f436883f0{margin:0 15%;padding:10% 0 0}#intro-content.jsx-d8a5ff1f436883f0{z-index:1;flex-flow:row;justify-content:center;align-items:center;width:66vw;display:flex;overflow:hidden}#photo-div.jsx-d8a5ff1f436883f0{text-align:right;width:50%;padding:0 3% 0 0}#profile-photo.jsx-d8a5ff1f436883f0{filter:drop-shadow(1px 1px 1px #fff);border-radius:50%;margin-left:auto;margin-right:0;height:500px!important}#intro-div.jsx-d8a5ff1f436883f0{text-align:left;width:50%;padding:0 0 0 3%}#user-name.jsx-d8a5ff1f436883f0,.title.jsx-d8a5ff1f436883f0{color:#ffc31f;font-size:2rem}.title.jsx-d8a5ff1f436883f0{text-align:center;margin:10% 0 0}#about-content.jsx-d8a5ff1f436883f0{z-index:1;text-align:center;width:66vw;margin:2% auto;overflow:hidden}#education.jsx-d8a5ff1f436883f0,#work-experience.jsx-d8a5ff1f436883f0{text-align:left;width:50%}#education-title.jsx-d8a5ff1f436883f0,#work-experience-title.jsx-d8a5ff1f436883f0{color:#ffc31f;padding:2% 0}.about-item.jsx-d8a5ff1f436883f0{border:1px solid #6e3a9d}#services-content.jsx-d8a5ff1f436883f0{z-index:1;text-align:center;width:66vw;margin:2% auto;overflow:hidden}#my-services.jsx-d8a5ff1f436883f0{flex-flow:row;justify-content:space-between;align-items:center;padding:5% 0 0;display:flex}#portfolio-content.jsx-d8a5ff1f436883f0{z-index:1;text-align:center;width:66vw;margin:2% auto;overflow:hidden}#my-portfolio.jsx-d8a5ff1f436883f0{text-align:center;margin-top:5%}#contact.jsx-d8a5ff1f436883f0{padding:0 0 5%}#contact-content.jsx-d8a5ff1f436883f0{z-index:1;text-align:center;width:66vw;margin:2% auto;overflow:hidden}#contact-details.jsx-d8a5ff1f436883f0{z-index:1;flex-flow:row;justify-content:center;align-items:center;margin:5% 0 0;display:flex;overflow:hidden}#map-location-div.jsx-d8a5ff1f436883f0{text-align:right;justify-content:end;width:50%;padding:0 3% 0 0;display:flex}.map.jsx-d8a5ff1f436883f0{border-radius:5%;width:25rem;height:25rem}#contact-form-div.jsx-d8a5ff1f436883f0{text-align:left;justify-content:start;width:50%;padding:0 0 0 3%;display:flex}#contact-form-btns-div.jsx-d8a5ff1f436883f0{justify-content:start;width:-webkit-fill-available;display:flex}footer.jsx-d8a5ff1f436883f0{text-align:center;z-index:1;background-color:#000;width:100%;padding:15px 0;position:relative;bottom:0;overflow:hidden}code.jsx-d8a5ff1f436883f0{border-radius:5px;padding:.75rem;font-family:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace;font-size:.7rem}@media only screen and (width<=950px){main.jsx-d8a5ff1f436883f0{width:100%;height:auto;margin-bottom:5%;padding:15% 0 0}#intro.jsx-d8a5ff1f436883f0,#about.jsx-d8a5ff1f436883f0,#services.jsx-d8a5ff1f436883f0,#portfolio.jsx-d8a5ff1f436883f0,#contact.jsx-d8a5ff1f436883f0{z-index:1;width:80vw;height:auto;margin:auto;overflow:hidden}#intro.jsx-d8a5ff1f436883f0{margin:0 10%}#intro-content.jsx-d8a5ff1f436883f0{flex-flow:column;justify-content:center;align-items:center;width:100vw;display:flex;overflow:hidden}#photo-div.jsx-d8a5ff1f436883f0{text-align:center;width:100vw;margin:auto;padding:0 0 5%}#profile-photo.jsx-d8a5ff1f436883f0{height:auto;margin-left:auto;margin-right:auto}#intro-div.jsx-d8a5ff1f436883f0{text-align:center;width:100vw;padding:5% 0 0}.title.jsx-d8a5ff1f436883f0{text-align:center;margin:20% 0 0}#about-content.jsx-d8a5ff1f436883f0{z-index:1;text-align:center;width:100vw;margin:2% auto;overflow:hidden}#education.jsx-d8a5ff1f436883f0,#work-experience.jsx-d8a5ff1f436883f0{text-align:center;width:100%}#about-me.jsx-d8a5ff1f436883f0{flex-flow:column;justify-content:center;align-items:center;display:flex}#services-content.jsx-d8a5ff1f436883f0{z-index:1;text-align:center;width:100vw;margin:3% auto;overflow:hidden}#my-services.jsx-d8a5ff1f436883f0{flex-flow:column;justify-content:space-between;align-items:center;padding:5% 0 0;display:flex}#portfolio-content.jsx-d8a5ff1f436883f0{z-index:1;text-align:center;width:100vw;margin:2% auto;overflow:hidden}#my-portfolio.jsx-d8a5ff1f436883f0{text-align:center;margin-top:10%}.slider-container.jsx-d8a5ff1f436883f0{border-radius:10px;width:100%;height:auto;position:relative;overflow:hidden;box-shadow:0 4px 8px #0000001a}.image-deck.jsx-d8a5ff1f436883f0{grid-template-columns:repeat(1,1fr);display:grid}#contact-content.jsx-d8a5ff1f436883f0{z-index:1;text-align:center;width:100vw;margin:2% auto;overflow:hidden}#contact-details.jsx-d8a5ff1f436883f0{z-index:1;flex-flow:column;justify-content:center;align-items:center;margin:5% 0 0;display:flex;overflow:hidden}#map-location-div.jsx-d8a5ff1f436883f0{text-align:center;justify-content:center;width:100vw;padding:0 0 5%;display:flex}#contact-form-div.jsx-d8a5ff1f436883f0{text-align:center;justify-content:center;width:100vw;padding:5% 0 0;display:flex}#contact-form-btns-div.jsx-d8a5ff1f436883f0{justify-content:center;width:-webkit-fill-available;display:flex}}"
+                id: "56eeb3128eb2f4d7",
+                children: "#navbar-item.jsx-56eeb3128eb2f4d7{padding:2rem!important}#content-wrapper.jsx-56eeb3128eb2f4d7{flex-flow:column wrap;display:flex}main.jsx-56eeb3128eb2f4d7{flex-grow:1;width:100%;height:auto}#intro.jsx-56eeb3128eb2f4d7,#about.jsx-56eeb3128eb2f4d7,#services.jsx-56eeb3128eb2f4d7,#portfolio.jsx-56eeb3128eb2f4d7,#contact.jsx-56eeb3128eb2f4d7{z-index:1;width:80vw;margin:auto;overflow:hidden}#intro.jsx-56eeb3128eb2f4d7{margin:0 15%;padding:10% 0 0}#intro-content.jsx-56eeb3128eb2f4d7{z-index:1;flex-flow:row;justify-content:center;align-items:center;width:66vw;display:flex;overflow:hidden}#photo-div.jsx-56eeb3128eb2f4d7{text-align:right;width:50%;padding:0 3% 0 0}#profile-photo.jsx-56eeb3128eb2f4d7{filter:drop-shadow(1px 1px 1px #a89494);border-radius:50%;margin-left:auto;margin-right:0;height:500px!important}#intro-div.jsx-56eeb3128eb2f4d7{text-align:left;width:50%;padding:0 0 0 3%}#user-name.jsx-56eeb3128eb2f4d7,.title.jsx-56eeb3128eb2f4d7{color:#ffc31f;font-size:2rem}.title.jsx-56eeb3128eb2f4d7{text-align:center;margin:10% 0 0}#about-content.jsx-56eeb3128eb2f4d7{z-index:1;text-align:center;width:66vw;margin:2% auto;overflow:hidden}#education.jsx-56eeb3128eb2f4d7,#work-experience.jsx-56eeb3128eb2f4d7{text-align:left;width:50%}#education-title.jsx-56eeb3128eb2f4d7,#work-experience-title.jsx-56eeb3128eb2f4d7{color:#ffc31f;padding:2% 0}.about-item.jsx-56eeb3128eb2f4d7{border:1px solid #6e3a9d}#services-content.jsx-56eeb3128eb2f4d7{z-index:1;text-align:center;width:66vw;margin:2% auto;overflow:hidden}#my-services.jsx-56eeb3128eb2f4d7{flex-flow:row;justify-content:space-between;align-items:center;padding:5% 0 0;display:flex}#portfolio-content.jsx-56eeb3128eb2f4d7{z-index:1;text-align:center;width:66vw;margin:2% auto;overflow:hidden}#my-portfolio.jsx-56eeb3128eb2f4d7{text-align:center;margin-top:5%}#contact.jsx-56eeb3128eb2f4d7{padding:0 0 5%}#contact-content.jsx-56eeb3128eb2f4d7{z-index:1;text-align:center;width:66vw;margin:2% auto;overflow:hidden}#contact-details.jsx-56eeb3128eb2f4d7{z-index:1;flex-flow:row;justify-content:center;align-items:center;margin:5% 0 0;display:flex;overflow:hidden}#map-location-div.jsx-56eeb3128eb2f4d7{text-align:right;justify-content:end;width:50%;padding:0 3% 0 0;display:flex}.map.jsx-56eeb3128eb2f4d7{border-radius:5%;width:25rem;height:25rem}#contact-form-div.jsx-56eeb3128eb2f4d7{text-align:left;justify-content:start;width:50%;padding:0 0 0 3%;display:flex}#contact-form-btns-div.jsx-56eeb3128eb2f4d7{justify-content:start;width:-webkit-fill-available;display:flex}footer.jsx-56eeb3128eb2f4d7{text-align:center;z-index:1;background-color:#000;width:100%;padding:15px 0;position:relative;bottom:0;overflow:hidden}code.jsx-56eeb3128eb2f4d7{border-radius:5px;padding:.75rem;font-family:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace;font-size:.7rem}@media only screen and (width<=950px){main.jsx-56eeb3128eb2f4d7{width:100%;height:auto;margin-bottom:5%;padding:15% 0 0}#intro.jsx-56eeb3128eb2f4d7,#about.jsx-56eeb3128eb2f4d7,#services.jsx-56eeb3128eb2f4d7,#portfolio.jsx-56eeb3128eb2f4d7,#contact.jsx-56eeb3128eb2f4d7{z-index:1;width:80vw;height:auto;margin:auto;overflow:hidden}#intro.jsx-56eeb3128eb2f4d7{margin:0 10%}#intro-content.jsx-56eeb3128eb2f4d7{flex-flow:column;justify-content:center;align-items:center;width:100vw;display:flex;overflow:hidden}#photo-div.jsx-56eeb3128eb2f4d7{text-align:center;width:100vw;margin:auto;padding:0 0 5%}#profile-photo.jsx-56eeb3128eb2f4d7{height:auto;margin-left:auto;margin-right:auto}#intro-div.jsx-56eeb3128eb2f4d7{text-align:center;width:100vw;padding:5% 0 0}.title.jsx-56eeb3128eb2f4d7{text-align:center;margin:20% 0 0}#about-content.jsx-56eeb3128eb2f4d7{z-index:1;text-align:center;width:100vw;margin:2% auto;overflow:hidden}#education.jsx-56eeb3128eb2f4d7,#work-experience.jsx-56eeb3128eb2f4d7{text-align:center;width:100%}#about-me.jsx-56eeb3128eb2f4d7{flex-flow:column;justify-content:center;align-items:center;display:flex}#services-content.jsx-56eeb3128eb2f4d7{z-index:1;text-align:center;width:100vw;margin:3% auto;overflow:hidden}#my-services.jsx-56eeb3128eb2f4d7{flex-flow:column;justify-content:space-between;align-items:center;padding:5% 0 0;display:flex}#portfolio-content.jsx-56eeb3128eb2f4d7{z-index:1;text-align:center;width:100vw;margin:2% auto;overflow:hidden}#my-portfolio.jsx-56eeb3128eb2f4d7{text-align:center;margin-top:10%}.slider-container.jsx-56eeb3128eb2f4d7{border-radius:10px;width:100%;height:auto;position:relative;overflow:hidden;box-shadow:0 4px 8px #0000001a}.image-deck.jsx-56eeb3128eb2f4d7{grid-template-columns:repeat(1,1fr);display:grid}#contact-content.jsx-56eeb3128eb2f4d7{z-index:1;text-align:center;width:100vw;margin:2% auto;overflow:hidden}#contact-details.jsx-56eeb3128eb2f4d7{z-index:1;flex-flow:column;justify-content:center;align-items:center;margin:5% 0 0;display:flex;overflow:hidden}#map-location-div.jsx-56eeb3128eb2f4d7{text-align:center;justify-content:center;width:100vw;padding:0 0 5%;display:flex}#contact-form-div.jsx-56eeb3128eb2f4d7{text-align:center;justify-content:center;width:100vw;padding:5% 0 0;display:flex}#contact-form-btns-div.jsx-56eeb3128eb2f4d7{justify-content:center;width:-webkit-fill-available;display:flex}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
