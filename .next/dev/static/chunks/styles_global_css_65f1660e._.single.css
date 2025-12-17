@@ -119,6 +119,12 @@ nav {
   width: 0 !important;
 }
 
+.footer-logo-div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .tab-item > .text-default-500 {
   color: #fff;
 }

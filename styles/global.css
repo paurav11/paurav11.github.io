@@ -147,15 +147,15 @@ nav {
   display: none; 
 }
 
+.footer-logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tab-item > .text-default-500 {
   color: white;
 }
-
-/* .rsis-image {
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-} */
 
 #contact-form {
   width: 20rem !important;
@@ -177,13 +177,6 @@ nav {
     max-height: 30rem !important;
     height: 25rem !important;
   }
-  
-  /* .rsis-image {
-    width: 100% !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-  } */
 
   #contact-form {
     width: 15rem !important;

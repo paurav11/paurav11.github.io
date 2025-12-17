@@ -681,6 +681,10 @@ export default function Home() {
         </main>
 
         <footer id="portfolio-footer">
+          <div class="footer-logo-div">
+            <img id="footer-logo" src="./logo/paurav_shah_white.png" alt="Paurav Shah Logo" width="200rem" height="200rem"/>
+          </div>
+          <br/>
           <p>Copyright &copy; 2025 Paurav Shah. All rights reserved.</p>
           <br/>
           <Button id="github-btn" className="bordered-btn" title="Paurav Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/paurav11">
@@ -736,7 +740,7 @@ export default function Home() {
           margin-left: auto;
           margin-right: 0;
          -webkit-filter: drop-shadow(1px 1px 1px #fff);
-          filter: drop-shadow(1px 1px 1px #fff);
+          filter: drop-shadow(1px 1px 1px #a89494ff);
           border-radius: 50%;
         }
         // #profile-photo:hover {
