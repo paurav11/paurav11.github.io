@@ -756,7 +756,7 @@ function Home() {
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         id: "user-role",
                                                                         className: "jsx-56eeb3128eb2f4d7",
-                                                                        children: "Full Stack Engineer | Cloud & AI Enthusiast | Creator"
+                                                                        children: "Full Stack Developer | AI Engineer | Analyst"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 193,
@@ -774,7 +774,7 @@ function Home() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "jsx-56eeb3128eb2f4d7" + " " + "mt-5",
-                                                                children: "Experienced software engineer with over 4 years of experience in designing, developing, and delivering robust and scalable enterprise solutions. Proficient in Java and Spring technologies with microservices architecture, leveraging strong problem-solving skills and agile methodologies, building RESTful APIs, and integrating with relational databases."
+                                                                children: "Experienced software engineer with 4+ years of experience designing agile, microservices-based enterprise architectures and RESTful APIs. Recognized for driving team success through expertise in solving complex technical challenges and building creative, innovative, robust, scalable, end-to-end enterprise solutions."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
                                                                 lineNumber: 194,
@@ -782,7 +782,7 @@ function Home() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "jsx-56eeb3128eb2f4d7" + " " + "mt-5",
-                                                                children: "Recognized for delivering innovative and tailored solutions that consistently exceed expectations, with a pragmatic approach to complex technical challenges. Driven by creativity and a commitment to excellence, thrives in leadership roles, ensuring timely deliverables with great attention to detail while actively contributing to team success."
+                                                                children: "Driven by creativity and a commitment to excellence, thrives in leadership roles, ensuring timely deliverables with great attention to detail while actively contributing to team success."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
                                                                 lineNumber: 195,
@@ -790,7 +790,7 @@ function Home() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "jsx-56eeb3128eb2f4d7" + " " + "mt-5",
-                                                                children: "Kindly, go through my resume for more information and let me know if I'm the person that you might be looking for. Always looking forward to connect with innovative minds."
+                                                                children: "Kindly, let me know if I'm the person that you might be looking for. Always looking forward to connect with innovative minds."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
                                                                 lineNumber: 196,
@@ -807,51 +807,29 @@ function Home() {
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             id: "intro-btns",
                                                             className: "jsx-56eeb3128eb2f4d7",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$XJ3PDX4B$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
-                                                                    id: "resume-btn",
-                                                                    className: "bordered-btn",
-                                                                    title: "Download Resume",
-                                                                    color: "primary",
-                                                                    variant: "bordered",
-                                                                    onPress: downloadResume,
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["FaFileArrowDown"], {}, void 0, false, {
-                                                                            fileName: "[project]/pages/index.js",
-                                                                            lineNumber: 201,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        " Resume"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.js",
-                                                                    lineNumber: 200,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$XJ3PDX4B$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
-                                                                    id: "email-btn",
-                                                                    className: "bordered-btn",
-                                                                    title: "Email",
-                                                                    color: "primary",
-                                                                    variant: "bordered",
-                                                                    as: "a",
-                                                                    target: "_blank",
-                                                                    href: "mailto:dev.paurav@gmail.com",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["FaPaperPlane"], {}, void 0, false, {
-                                                                            fileName: "[project]/pages/index.js",
-                                                                            lineNumber: 204,
-                                                                            columnNumber: 25
-                                                                        }, this),
-                                                                        " Message"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/index.js",
-                                                                    lineNumber: 203,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroui$2f$button$2f$dist$2f$chunk$2d$XJ3PDX4B$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$export__button_default__as__Button$3e$__["Button"], {
+                                                                id: "email-btn",
+                                                                className: "bordered-btn",
+                                                                title: "Email",
+                                                                color: "primary",
+                                                                variant: "bordered",
+                                                                as: "a",
+                                                                target: "_blank",
+                                                                href: "mailto:dev.paurav@gmail.com",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["FaPaperPlane"], {}, void 0, false, {
+                                                                        fileName: "[project]/pages/index.js",
+                                                                        lineNumber: 204,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    " Message"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/pages/index.js",
+                                                                lineNumber: 203,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
                                                             lineNumber: 199,
                                                             columnNumber: 21
@@ -1170,7 +1148,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "jsx-56eeb3128eb2f4d7",
-                                children: "Copyright © 2025 Paurav Shah. All rights reserved."
+                                children: "Copyright © 2026 Paurav Shah. All rights reserved."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
                                 lineNumber: 688,
