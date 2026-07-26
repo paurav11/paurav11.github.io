@@ -190,16 +190,16 @@ export default function Home() {
                 <Card id="intro-card">
                   <CardBody id="intro-card-body">
                     <p id="user-name" className="google-sans-code-regular">Paurav Shah</p>
-                    <p><i><span id="user-role">Full Stack Engineer | Cloud & AI Enthusiast | Creator</span></i></p>
-                    <p className="mt-5">Experienced software engineer with over 4 years of experience in designing, developing, and delivering robust and scalable enterprise solutions. Proficient in Java and Spring technologies with microservices architecture, leveraging strong problem-solving skills and agile methodologies, building RESTful APIs, and integrating with relational databases.</p>
-                    <p className="mt-5">Recognized for delivering innovative and tailored solutions that consistently exceed expectations, with a pragmatic approach to complex technical challenges. Driven by creativity and a commitment to excellence, thrives in leadership roles, ensuring timely deliverables with great attention to detail while actively contributing to team success.</p>
-                    <p className="mt-5">Kindly, go through my resume for more information and let me know if I'm the person that you might be looking for. Always looking forward to connect with innovative minds.</p>
+                    <p><i><span id="user-role">Full Stack Developer | AI Engineer | Analyst</span></i></p>
+                    <p className="mt-5">Experienced software engineer with 4+ years of experience designing agile, microservices-based enterprise architectures and RESTful APIs. Recognized for driving team success through expertise in solving complex technical challenges and building creative, innovative, robust, scalable, end-to-end enterprise solutions.</p>
+                    <p className="mt-5">Driven by creativity and a commitment to excellence, thrives in leadership roles, ensuring timely deliverables with great attention to detail while actively contributing to team success.</p>
+                    <p className="mt-5">Kindly, let me know if I'm the person that you might be looking for. Always looking forward to connect with innovative minds.</p>
                   </CardBody>
                   <CardFooter id="intro-card-footer">
                     <div id="intro-btns">
-                      <Button id="resume-btn" className="bordered-btn" title="Download Resume" color="primary" variant="bordered" onPress={downloadResume}>
+                      {/* <Button id="resume-btn" className="bordered-btn" title="Download Resume" color="primary" variant="bordered" onPress={downloadResume}>
                         <FaFileArrowDown/>&nbsp;Resume
-                      </Button>
+                      </Button> */}
                       <Button id="email-btn" className="bordered-btn" title="Email" color="primary" variant="bordered" as="a" target="_blank" href="mailto:dev.paurav@gmail.com">
                         <FaPaperPlane/>&nbsp;Message
                       </Button>
@@ -685,7 +685,7 @@ export default function Home() {
             <img id="footer-logo" src="./logo/paurav_shah_white.png" alt="Paurav Shah Logo" width="200rem" height="200rem"/>
           </div>
           <br/>
-          <p>Copyright &copy; 2025 Paurav Shah. All rights reserved.</p>
+          <p>Copyright &copy; 2026 Paurav Shah. All rights reserved.</p>
           <br/>
           <Button id="github-btn" className="bordered-btn" title="Paurav Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/paurav11">
             <FaGithub/>&nbsp;paurav11

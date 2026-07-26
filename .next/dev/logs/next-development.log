@@ -1,5 +1,5 @@
-[00:00:00.626] Server  LOG      ✓ Ready in 432ms
-[00:00:37.937] Server  ERROR   Warning: Invalid DOM property `frameborder`. Did you mean `frameBorder`?
+[00:00:01.320] Server  LOG      ✓ Ready in 1149ms
+[00:00:32.829] Server  ERROR   Warning: Invalid DOM property `frameborder`. Did you mean `frameBorder`?
     at iframe
     at div
     at div
@@ -16,7 +16,7 @@
     at AppContainerWithIsomorphicFiberStructure (webpack://next/src/server/render.tsx:785:11)
     at div
     at Body (webpack://next/src/server/render.tsx:1254:19)
-[00:00:37.937] Server  ERROR   Warning: Invalid DOM property `allowfullscreen`. Did you mean `allowFullScreen`?
+[00:00:32.829] Server  ERROR   Warning: Invalid DOM property `allowfullscreen`. Did you mean `allowFullScreen`?
     at iframe
     at div
     at div
@@ -33,7 +33,7 @@
     at AppContainerWithIsomorphicFiberStructure (webpack://next/src/server/render.tsx:785:11)
     at div
     at Body (webpack://next/src/server/render.tsx:1254:19)
-[00:00:37.937] Server  ERROR   Warning: Invalid DOM property `tabindex`. Did you mean `tabIndex`?
+[00:00:32.829] Server  ERROR   Warning: Invalid DOM property `tabindex`. Did you mean `tabIndex`?
     at iframe
     at div
     at div
@@ -50,503 +50,7 @@
     at AppContainerWithIsomorphicFiberStructure (webpack://next/src/server/render.tsx:785:11)
     at div
     at Body (webpack://next/src/server/render.tsx:1254:19)
-[00:00:38.823] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:00:38.825] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:00:38.825] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:00:38.825] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:00:42.329] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:00:42.330] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:00:42.330] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:00:42.330] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:03:27.033] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:03:27.033] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:03:27.033] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:03:27.221] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:04:43.696] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:04:43.701] Server  LOG      ✓ Compiled in 308ms
-[00:04:44.174] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:04:45.071] Browser LOG     Refreshing page data due to server-side change
-[00:04:45.372] Server  LOG      ✓ Compiled in 403ms
-[00:04:45.525] Browser ERROR   ./pages/index.js:687:11
-Parsing ecmascript source code failed
-  685 |           <br/>
-  686 |           <
-> 687 |           <Button id="github-btn" className="bordered-btn" title="Paurav Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/paurav11">
-      |           ^
-  688 |             <FaGithub/>&nbsp;paurav11
-  689 |           </Button>
-  690 |           <br/>
-
-Expression expected
-[00:04:45.525] Browser ERROR   ./pages/index.js
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/pages/index.js [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/pages/index.js [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-[00:04:46.965] Browser ERROR   ./pages/index.js:687:11
-Parsing ecmascript source code failed
-  685 |           <br/>
-  686 |           <i
-> 687 |           <Button id="github-btn" className="bordered-btn" title="Paurav Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/paurav11">
-      |           ^
-  688 |             <FaGithub/>&nbsp;paurav11
-  689 |           </Button>
-  690 |           <br/>
-
-Expression expected
-[00:04:46.965] Browser ERROR   ./pages/index.js
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/pages/index.js [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/pages/index.js [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-[00:04:48.856] Browser ERROR   ./pages/index.js:687:11
-Parsing ecmascript source code failed
-  685 |           <br/>
-  686 |           <img
-> 687 |           <Button id="github-btn" className="bordered-btn" title="Paurav Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/paurav11">
-      |           ^
-  688 |             <FaGithub/>&nbsp;paurav11
-  689 |           </Button>
-  690 |           <br/>
-
-Expression expected
-[00:04:48.856] Browser ERROR   ./pages/index.js
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/pages/index.js [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/pages/index.js [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-[00:04:56.248] Browser ERROR   ./pages/index.js:687:11
-Parsing ecmascript source code failed
-  685 |           <br/>
-  686 |           <img
-> 687 |           <Button id="github-btn" className="bordered-btn" title="Paurav Shah | GitHub" color="primary" variant="bordered" as="a" target="_blank" href="https://github.com/paurav11">
-      |           ^
-  688 |             <FaGithub/>&nbsp;paurav11
-  689 |           </Button>
-  690 |           <br/>
-
-Expression expected
-[00:04:56.248] Browser ERROR   ./pages/index.js
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/pages/index.js [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/pages/index.js [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-[00:04:57.915] Server  LOG      ✓ Compiled in 278ms
-[00:04:57.984] Browser LOG     Refreshing page data due to server-side change
-[00:04:57.985] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:04:58.369] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:05:12.501] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:05:12.501] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:05:12.501] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:05:12.501] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:06:41.557] Server  LOG      ✓ Compiled in 287ms
-[00:06:41.560] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:06:41.995] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:06:47.679] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:06:47.765] Server  LOG      ✓ Compiled in 220ms
-[00:06:48.203] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:07:20.688] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:07:20.801] Server  LOG      ✓ Compiled in 252ms
-[00:07:21.208] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:07:35.610] Server  LOG      ✓ Compiled in 234ms
-[00:07:35.621] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:07:36.035] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:07:39.925] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:07:39.987] Server  LOG      ✓ Compiled in 222ms
-[00:07:40.394] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:07:44.217] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:07:44.333] Server  LOG      ✓ Compiled in 287ms
-[00:07:44.724] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:08:18.053] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:08:18.053] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:08:18.053] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:08:18.053] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:11:47.886] Server  LOG      ✓ Compiled in 209ms
-[00:11:48.250] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:11:49.125] Server  LOG      ✓ Compiled in 228ms
-[00:11:49.272] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:11:50.254] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:11:53.686] Server  LOG      ✓ Compiled in 168ms
-[00:11:54.252] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:11:57.510] Server  LOG      ✓ Compiled in 172ms
-[00:11:58.257] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:12:15.280] Server  LOG      ✓ Compiled in 200ms
-[00:12:15.292] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:12:15.722] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:12:16.435] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:12:16.457] Server  LOG      ✓ Compiled in 187ms
-[00:12:16.896] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:12:17.495] Server  LOG      ✓ Compiled in 147ms
-[00:12:17.514] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:12:17.969] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:12:19.887] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:12:19.911] Server  LOG      ✓ Compiled in 184ms
-[00:12:20.378] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:12:20.876] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:12:20.936] Server  LOG      ✓ Compiled in 203ms
-[00:12:21.395] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:12:28.623] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:12:28.623] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:12:28.623] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:12:28.623] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:13:20.438] Server  LOG      ✓ Compiled in 171ms
-[00:13:21.256] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:13:22.068] Server  LOG      ✓ Compiled in 178ms
-[00:13:22.250] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:13:22.250] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:13:30.729] Server  LOG      ✓ Compiled in 432ms
-[00:13:31.254] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
-    at div
-    at footer
-    at div
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js?id=%255Bproject%255D%252Fpages%252Findex.js+%255Bclient%255D+%2528ecmascript%2529:70:167)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:13:31.255] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:13:31.549] Server  LOG      ✓ Compiled in 148ms
-[00:13:32.250] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:13:37.698] Server  LOG      ✓ Compiled in 167ms
-[00:13:38.249] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:13:40.057] Server  LOG      ✓ Compiled in 135ms
-[00:13:40.249] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:13:46.909] Server  LOG      ✓ Compiled in 190ms
-[00:13:47.249] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:13:56.384] Server  LOG      ✓ Compiled in 246ms
-[00:13:57.252] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:14:19.936] Server  LOG      ✓ Compiled in 236ms
-[00:14:20.251] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:14:22.249] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:14:24.430] Server  LOG      ✓ Compiled in 150ms
-[00:14:25.248] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:14:26.747] Server  LOG      ✓ Compiled in 154ms
-[00:14:27.250] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:14:32.662] Server  LOG      ✓ Compiled in 329ms
-[00:14:33.249] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:14:34.569] Server  LOG      ✓ Compiled in 188ms
-[00:14:35.250] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[00:14:39.359] Server  ERROR   Warning: Invalid DOM property `class`. Did you mean `className`?
+[00:00:32.834] Server  ERROR   Warning: Invalid DOM property `class`. Did you mean `className`?
     at div
     at footer
     at div
@@ -559,7 +63,7 @@ Debug info:
     at AppContainerWithIsomorphicFiberStructure (webpack://next/src/server/render.tsx:785:11)
     at div
     at Body (webpack://next/src/server/render.tsx:1254:19)
-[00:14:39.930] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
+[00:00:33.645] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
     at iframe
     at div
     at div
@@ -576,7 +80,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:14:39.930] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
+[00:00:33.645] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
     at iframe
     at div
     at div
@@ -593,7 +97,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:14:39.930] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
+[00:00:33.645] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
     at iframe
     at div
     at div
@@ -610,7 +114,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:14:39.930] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+[00:00:33.645] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
     at div
     at footer
     at div
@@ -623,7 +127,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:14:39.930] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-431d47a08fc49f69" 
+[00:00:33.645] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
     at div
     at footer
     at div
@@ -636,14 +140,21 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[00:14:39.930] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[11:31:40.887] Server  LOG      ✓ Compiled in 423ms
-[11:31:40.927] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[11:31:41.432] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[11:31:44.365] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[11:31:44.531] Server  LOG      ✓ Compiled in 394ms
-[11:31:44.854] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[11:40:23.831] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
+[00:00:33.645] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:02:21.339] Server  LOG      ✓ Compiled in 282ms
+[00:02:21.786] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:02:22.787] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:02:26.308] Server  LOG      ✓ Compiled in 150ms
+[00:02:26.789] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:02:33.692] Server  LOG      ✓ Compiled in 171ms
+[00:02:33.787] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:02:37.211] Server  LOG      ✓ Compiled in 146ms
+[00:02:37.790] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:02:53.923] Server  LOG      ✓ Compiled in 150ms
+[00:02:54.788] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[00:02:57.445] Server  LOG      ✓ Compiled in 160ms
+[00:02:57.788] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[04:56:00.478] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
     at iframe
     at div
     at div
@@ -660,7 +171,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[11:40:23.831] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
+[04:56:00.478] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
     at iframe
     at div
     at div
@@ -677,7 +188,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[11:40:23.831] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
+[04:56:00.478] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
     at iframe
     at div
     at div
@@ -694,7 +205,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[11:40:23.831] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+[04:56:00.478] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
     at div
     at footer
     at div
@@ -707,7 +218,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[11:40:23.831] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-f3273638af638220" 
+[04:56:00.478] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
     at div
     at footer
     at div
@@ -720,12 +231,16 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[11:40:23.831] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:03:45.966] Server  LOG      ✓ Compiled in 665ms
-[23:03:46.334] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:03:47.326] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:04:01.641] Server  LOG      ✓ Compiled in 32ms
-[23:04:13.339] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
+[04:56:00.478] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[04:58:39.395] Server  LOG      ✓ Compiled in 191ms
+[04:58:39.791] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[04:58:41.790] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:00:35.238] Server  LOG      ✓ Compiled in 164ms
+[05:00:35.790] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:00:36.789] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:00:49.316] Server  LOG      ✓ Compiled in 146ms
+[05:00:49.789] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:00:56.138] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
     at iframe
     at div
     at div
@@ -742,7 +257,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:04:13.341] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
+[05:00:56.138] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
     at iframe
     at div
     at div
@@ -759,7 +274,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:04:13.354] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
+[05:00:56.138] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
     at iframe
     at div
     at div
@@ -776,7 +291,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:04:13.354] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+[05:00:56.138] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
     at div
     at footer
     at div
@@ -789,7 +304,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:04:13.354] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
+[05:00:56.138] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
     at div
     at footer
     at div
@@ -802,14 +317,15 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:04:13.354] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:07:45.690] Server  LOG      ✓ Compiled in 325ms
-[23:07:45.769] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:07:46.165] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:07:49.842] Server  LOG      ✓ Compiled in 224ms
-[23:07:49.856] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:07:50.284] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:07:56.590] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
+[05:00:56.138] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:08:24.455] Server  LOG      ✓ Compiled in 303ms
+[05:08:24.789] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:08:25.820] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:08:30.009] Server  LOG      ✓ Compiled in 298ms
+[05:08:30.789] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:08:33.295] Server  LOG      ✓ Compiled in 207ms
+[05:08:33.789] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:08:45.815] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
     at iframe
     at div
     at div
@@ -826,7 +342,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:07:56.590] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
+[05:08:45.815] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
     at iframe
     at div
     at div
@@ -843,7 +359,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:07:56.590] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
+[05:08:45.815] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
     at iframe
     at div
     at div
@@ -860,7 +376,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:07:56.591] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+[05:08:45.815] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
     at div
     at footer
     at div
@@ -873,7 +389,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:07:56.591] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
+[05:08:45.815] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
     at div
     at footer
     at div
@@ -886,20 +402,33 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:07:56.763] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:09:52.397] Server  LOG      ✓ Compiled in 461ms
-[23:09:52.432] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:09:52.782] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:09:54.490] Server  LOG      ✓ Compiled in 196ms
-[23:09:54.507] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:09:54.951] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:09:57.553] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:09:57.555] Server  LOG      ✓ Compiled in 203ms
-[23:09:57.969] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:10:01.811] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:10:01.829] Server  LOG      ✓ Compiled in 262ms
-[23:10:02.248] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:10:07.844] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
+[05:08:45.815] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:40:38.562] Server  LOG      ✓ Compiled in 248ms
+[05:40:38.650] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:40:40.651] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:40:41.040] Server  LOG      ✓ Compiled in 139ms
+[05:40:41.650] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:40:43.000] Server  LOG      ✓ Compiled in 130ms
+[05:40:43.651] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:41:05.320] Server  LOG      ✓ Compiled in 184ms
+[05:41:05.651] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:41:11.698] Server  LOG      ✓ Compiled in 151ms
+[05:41:12.656] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:41:16.152] Server  LOG      ✓ Compiled in 158ms
+[05:41:16.651] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:41:18.419] Server  LOG      ✓ Compiled in 137ms
+[05:41:18.649] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:41:19.650] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:41:19.653] Server  LOG      ✓ Compiled in 135ms
+[05:41:41.133] Server  LOG      ✓ Compiled in 180ms
+[05:41:41.652] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:42:22.006] Server  LOG      ✓ Compiled in 186ms
+[05:42:22.651] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:42:23.652] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:42:36.125] Server  LOG      ✓ Compiled in 160ms
+[05:42:36.652] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:42:37.651] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:42:52.124] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
     at iframe
     at div
     at div
@@ -916,7 +445,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:07.844] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
+[05:42:52.124] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
     at iframe
     at div
     at div
@@ -933,7 +462,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:07.844] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
+[05:42:52.124] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
     at iframe
     at div
     at div
@@ -950,7 +479,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:07.844] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+[05:42:52.124] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
     at div
     at footer
     at div
@@ -963,7 +492,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:07.844] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
+[05:42:52.124] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
     at div
     at footer
     at div
@@ -976,17 +505,20 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:07.844] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:10:19.161] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:10:19.260] Server  LOG      ✓ Compiled in 263ms
-[23:10:19.673] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:10:22.406] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:10:22.411] Server  LOG      ✓ Compiled in 179ms
-[23:10:22.861] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:10:25.811] Server  LOG      ✓ Compiled in 233ms
-[23:10:25.820] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:10:26.248] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:10:28.478] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
+[05:42:52.124] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:43:10.514] Server  LOG      ✓ Compiled in 154ms
+[05:43:10.650] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:43:12.650] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:43:16.604] Server  LOG      ✓ Compiled in 337ms
+[05:43:16.650] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:43:17.106] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:43:50.076] Server  LOG      ✓ Compiled in 153ms
+[05:43:50.652] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:43:51.650] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:43:52.928] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:43:52.934] Server  LOG      ✓ Compiled in 209ms
+[05:43:53.387] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:44:04.626] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
     at iframe
     at div
     at div
@@ -1003,7 +535,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:28.478] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
+[05:44:04.626] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
     at iframe
     at div
     at div
@@ -1020,7 +552,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:28.478] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
+[05:44:04.626] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
     at iframe
     at div
     at div
@@ -1037,7 +569,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:28.478] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+[05:44:04.626] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
     at div
     at footer
     at div
@@ -1050,7 +582,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:28.478] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
+[05:44:04.626] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
     at div
     at footer
     at div
@@ -1063,14 +595,12 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:10:28.478] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:11:24.248] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:11:24.273] Server  LOG      ✓ Compiled in 261ms
-[23:11:24.670] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:11:27.042] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:11:27.044] Server  LOG      ✓ Compiled in 212ms
-[23:11:27.485] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[23:11:33.915] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
+[05:44:04.626] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:46:16.331] Browser LOG     Refreshing page data due to server-side change
+[05:46:16.533] Server  LOG      ✓ Compiled in 426ms
+[05:46:16.720] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:46:17.184] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[05:46:51.424] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
     at iframe
     at div
     at div
@@ -1087,7 +617,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:11:33.915] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
+[05:46:51.424] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
     at iframe
     at div
     at div
@@ -1104,7 +634,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:11:33.915] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
+[05:46:51.424] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
     at iframe
     at div
     at div
@@ -1121,7 +651,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:11:33.915] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+[05:46:51.424] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
     at div
     at footer
     at div
@@ -1134,7 +664,7 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:11:33.915] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
+[05:46:51.424] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
     at div
     at footer
     at div
@@ -1147,84 +677,4 @@ Debug info:
     at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:11:33.915] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
-[23:18:36.968] Server  WARN     ⚠ Cross origin request detected from 192.168.0.107 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[23:18:37.558] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s frameborder frameBorder 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:18:37.558] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s allowfullscreen allowFullScreen 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:18:37.558] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s tabindex tabIndex 
-    at iframe
-    at div
-    at div
-    at div
-    at section
-    at main
-    at div
-    at div
-    at Home (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:18:37.558] Browser ERROR   Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
-    at div
-    at footer
-    at div
-    at div
-    at Home (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:18:37.558] Browser ERROR   Warning: Prop `%s` did not match. Server: %s Client: %s%s className "footer-logo-div" "jsx-56eeb3128eb2f4d7" 
-    at div
-    at footer
-    at div
-    at div
-    at Home (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__2d716426._.js:534:167)
-    at MyApp (http://192.168.0.107:3000/_next/static/chunks/%5Broot-of-the-server%5D__01feb856._.js:482:18)
-    at PathnameContextProviderAdapter (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_6024eba3._.js:1919:34)
-    at Container (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3041:1)
-    at AppContainer (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3140:25)
-    at Root (http://192.168.0.107:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3349:17)
-[23:18:37.558] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
+[05:46:51.424] Browser ERROR   Warning: You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.
